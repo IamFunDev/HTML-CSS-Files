@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.031rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    row-gap: 1rem;
+}
+.background-image-container{
+    width: 40%;
+    height: auto;
+    background-color: darkcyan;
+    padding: 8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    background-image: url(img/Fame\ and\ Fury.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.time-laps{
+    width: auto;
+    height: auto;
+}
+.time-laps p{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.589);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0.2rem;
+}
+.image-title-icon-container{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+.image-container{
+    width: auto;
+    height: auto;
+}
+.title-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.8rem;
+}
+.title-names{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.2rem;
+}
+.title{
+    width: auto;
+    height: auto;
+}
+.title h1{
+    font-size: 17.9px;
+    font-weight: 660;
+}
+.names{
+    width: auto;
+    height: auto;
+}
+.names h1{
+    font-size: 17.9px;
+    font-weight: 660;
+}
+.tv-views{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.tv{
+    width: fit-content;
+    height: auto;
+}
+.tv p{
+    font-weight: 600;
+    color: gray;
+}
+.views-icon-days{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.4rem;
+}
+.views{
+    width: fit-content;
+    height: auto;
+}
+.views p{
+    font-weight: 600;
+    color: gray;
+}
+.icon{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon i{
+    font-size: 3.5px;
+    color: gray;
+}
+.icon-container{
+    width: fit-content;
+    height: auto;
+}
+.icon-container i{
+    font-size: 30px;
+}

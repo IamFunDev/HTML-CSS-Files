@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.031rem;
+}
+
+.header-container{
+    width: 100%;
+    height: auto;
+    padding: 1rem 2.2rem;
+    background-color: rgb(9, 117, 9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-icon-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.2rem;
+}
+.logo-icon-container h1{
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.logo-icon-container .icon-container{
+    color: orange;
+    font-size: 1rem;
+}
+.nav-button-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.nav-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.nav-link-container{
+    width: fit-content;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.nav-link-container p{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-container{
+    width: auto;
+    height: auto;
+}
+button{
+    background-color: orange;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.2rem;
+    cursor: pointer;
+    border: none;
+}
+.sign-in-container{
+    width: fit-content;
+    height: auto;
+}
+.sign-in-container p{
+    color: rgb(9, 117, 9);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.sign-in-icon-container{
+    width: fit-content;
+    height: auto;
+    color : rgb(9, 117, 9);
+    font-size: 0.8rem;   
+}
+.secound-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background-image-container{
+    width: 100%;
+    height: auto;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+    background-color: rgb(206, 203, 203);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./Img/Copilot_20251216_065735.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caption{
+    width: fit-content;
+    height: auto;
+}
+.caption h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.explore-container{
+    width: fit-content;
+    height: auto;
+}
+.explore-container p{
+    color: rgb(9, 117, 9);
+    font-size: 1rem;
+    font-weight: 800;
+}
